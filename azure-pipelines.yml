@@ -14,7 +14,7 @@ pool:
 steps:
   - task: NodeTool@0
     inputs:
-      versionSpec: '10.x'      # CORRIGIDO: versão entre aspas para evitar problemas de parsing
+      versionSpec: '18.x'      # CORRIGIDO: versão entre aspas para evitar problemas de parsing
     displayName: 'Install Node.js'
 
   - script: |
